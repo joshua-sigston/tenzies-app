@@ -66,6 +66,8 @@ function App() {
   return (
     <main className="App flex_column center">
       {tenzies && <Confetti /> }
+      <h1>TENZIES</h1>
+      <p>Roll until all dice are the same. Click each dice to freeze it at its current value between rolls.</p>
       <div className="dice_container">
         {myRolls}
       </div>
