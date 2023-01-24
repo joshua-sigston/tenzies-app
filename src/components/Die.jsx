@@ -4,7 +4,7 @@ const Die = (props) => {
         props.onClick(e.target.id)
     }
 
-    const style = { backgroundColor: props.isHeld && 'C0D8C0'}
+    const style = { backgroundColor: props.isHeld && '#C0D8C0'}
 
     return (
         <div    className="die center_by_flex" 
